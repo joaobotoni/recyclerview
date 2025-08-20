@@ -20,8 +20,11 @@ public class XgpManejoMelhoramentoFragment extends Fragment {
     private RecyclerView recyclerView;
     private ManejoMelhoramentoAdapter adapter;
     private final List<XgpManejoMelhoramentoComponent> components = new ArrayList<>(Arrays.asList(
-            new XgpManejoMelhoramentoComponent(null, "test", "T", "I", null, "1;2;3;4;5;5", null, null, "n"),
-            new XgpManejoMelhoramentoComponent(null, "test", "T", "I", null, "1;2;3;4;5;5", null, null, "n")
+            new XgpManejoMelhoramentoComponent(null, "CONFORMAÇÃO", "C", "I", null, "1;2;3;4;5;5", 1, 5, "n"),
+            new XgpManejoMelhoramentoComponent(null, "PRECOCIDADE", "P", "I", null, "1;2;3;4;5;5", 1, 5, "n"),
+            new XgpManejoMelhoramentoComponent(null, "MUSCULATURA", "M", "I", null, "1;2;3;4;5;5", 1, 5, "n"),
+            new XgpManejoMelhoramentoComponent(null, "UMBIGO", "U", "I", null, "1;2;3;4;5;5", 1, 5, "n"),
+            new XgpManejoMelhoramentoComponent(null, "OBSERVAÇÃO", "COM", "T", null, null, null, null, "s")
     ));
 
 
